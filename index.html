@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BE Trains</title>
+
+    <!--Jquery-->
+    <link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1/jquery-ui.min.css" />
+    <script src="script/jquery-3.2.1.min.js"></script>
+    <script src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="style/screen.min.css" />
+
+    <!--Javascript-->
+    <script src="script/app.min.js"></script>
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="titleStation">Trains at the station of</h1>
+        <input type="text" class="cityInput" id="cities">
+        <section class="SectionSwitch">
+            <div class="SwitchTimes">
+                <label class="lblSwitch" for="arrdep">Arrival times</label>
+                <label class="switch">
+                    <input type="checkbox" id="arrdep">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="SwitchDelay">
+                    <label class="lblSwitch" for="delay">Show Delays </label>
+                    <label class="switch">
+                        <input type="checkbox" id="delay" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+        </section>
+    </header>
+    <main class="content" id="content">
+            <!-- <section class="train">
+                <div class="top">
+                    <span class="TrainTime">7:31</span>
+                    <span class="TrainPlatform">1</span>
+                    <span class="TrainType">IC</span>
+                </div>
+                <div class="bottom">
+                    <span class="TrainDest">Brugge Oostende</span>
+                    <span class="TrainDelay">+ 0:35</span>
+                </div>
+
+            </section>
+            <section class="train">
+                <div class="top">
+                    <span class="TrainTime">7:32</span>
+                    <span class="TrainPlatform">2</span>
+                    <span class="TrainType">IC</span>
+                </div>
+                <div class="bottom">
+                    <span class="TrainDest">Zottegem Brussels-Airport-Zaventem</span>
+                </div>
+
+            </section>
+            <section class="train">
+                <div class="top">
+                    <span class="TrainTime">7:34</span>
+                    <span class="TrainPlatform">4</span>
+                    <span class="TrainType">L</span>
+                </div>
+                <div class="bottom">
+                    <span class="TrainDest">Gent-St.-Pieters Eeklo</span>
+                    <span class="TrainDelay">AFGESCHAFT</span>
+                </div>
+
+            </section> -->
+    </main>
+    <footer>
+        <a href="contact.html"><button class="btnContact">Contact us</button></a>
+    </footer>
+</body>
+
+</html>
